@@ -20,22 +20,15 @@ public class Animal {
         String palavra2;
         String palavra3;
 
-        System.out.println("Glossário de palavrás");
-        System.out.println("(vertebrado) (ave) (carnivoro) (onivoro) (herbivoro) (invetebrado) (hematofago) (anelideo) ");
-
-        System.out.println("Insira a primera palavra");
+      
         palavra1 = sc.nextLine();
-
-        System.out.println("Insira a segunda palavra");
         palavra2 = sc.nextLine();
-
-        System.out.println("Insira a terceira palavra");
         palavra3 = sc.nextLine();
 
         if (palavra1.equals("vertebrado")) {
             if (palavra2.equals("ave")) {
                 if (palavra3.equals("carnivoro")) {
-                    System.out.println(" Resultado = " + " aguia ");
+                    System.out.println("aguia ");
                 } else if (palavra3.equals("onivoro")) {
                     System.out.println("pomba");
                 }
